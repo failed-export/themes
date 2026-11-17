@@ -31,3 +31,45 @@ a:active {
   line-height: 1.5;
   margin-bottom: 2rem;
 }
+
+@font-face {
+  font-display: swap;
+  font-family: "DM MONO";
+  font-style: regular;
+  font-weight: 400;
+  src: url('../fonts/dm-mono-v16-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: regular;
+  font-weight: 400;
+  src: url('../fonts/fraunces-v38-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: bold;
+  font-weight: 400;
+  src: url('../fonts/fraunces-v38-latin-600.woff2') format('woff2');
+}
+
+body {
+  font-family: var(--theme-font-body);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--theme-color-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--theme-font-heading);
+  font-weight: 600;
+  line-height: var(--theme-line-height-heading);
+}
