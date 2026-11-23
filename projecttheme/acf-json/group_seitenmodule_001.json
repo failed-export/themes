@@ -40,6 +40,221 @@
                 "acfe_flexible_modal_categories": "1"
             },
             "layouts": {
+                "layout_hero": {
+                    "key": "layout_hero",
+                    "name": "hero",
+                    "label": "Hero",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_hero_title",
+                            "label": "Titel",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_hero_background_image",
+                            "label": "Hintergrundbild",
+                            "name": "background_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": 0,
+                            "min_height": 0,
+                            "min_size": 0,
+                            "max_width": 0,
+                            "max_height": 0,
+                            "max_size": 0,
+                            "mime_types": "",
+                            "uploader": "",
+                            "acfe_thumbnail": 0
+                        },
+                        {
+                            "key": "field_hero_container",
+                            "label": "container",
+                            "name": "container",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "volle Breite",
+                                "container": "container-small",
+                                "container-lg": "container-lg",
+                                "container-fluid": "container-fluid"
+                            },
+                            "default_value": "none",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": ""
+                        },
+                        {
+                            "key": "field_hero_background",
+                            "label": "background",
+                            "name": "background",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none"
+                            },
+                            "default_value": "none",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": ""
+                        },
+                        {
+                            "key": "field_hero_show_on",
+                            "label": "Sichtbarkeit (Breakpoint)",
+                            "name": "show-on",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "everywhere": "Überall",
+                                "only-mobile": "Nur mobil",
+                                "only-desktop": "Nur Desktop"
+                            },
+                            "default_value": "everywhere",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": ""
+                        },
+                        {
+                            "key": "field_hero_id_anchor",
+                            "label": "ID/Anchor",
+                            "name": "id-anchor",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_hero_padding_y",
+                            "label": "Abstand Unten",
+                            "name": "padding_y",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "0": "kein Abstand",
+                                "py-2": "kleiner Abstand",
+                                "py-5": "normaler Abstand",
+                                "py-10": "großer Abstand"
+                            },
+                            "default_value": "0",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "allow_in_bindings": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "create_options": 0,
+                            "save_options": 0,
+                            "allow_custom": 0,
+                            "search_placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_category": "",
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_modal_edit_size": false
+                },
                 "layout_intro": {
                     "key": "layout_intro",
                     "name": "intro",
@@ -2464,6 +2679,27 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_galerie_title",
+                            "label": "Titel",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
                             "key": "field_gallery_images",
                             "label": "Bilder",
                             "name": "images",
@@ -3639,5 +3875,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1759588616
+    "modified": 1795465071
 }

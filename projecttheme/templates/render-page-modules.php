@@ -33,6 +33,9 @@ while (have_rows('page_modules')) : the_row();
   }
 
   switch (get_row_layout()) {
+    case 'hero':
+      get_template_part('template-parts/flex/layout', 'hero'); break;
+
     case 'intro':
       get_template_part('template-parts/flex/layout', 'intro'); break;
 
